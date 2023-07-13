@@ -38,6 +38,11 @@ const questions = [
       },
       {
         type: "input",
+        name: "contributers",
+        message: "Who else if any had any contributions to this project:",
+      },
+      {
+        type: "input",
         name: "tests",
         message: "Enter any testing instructions you would like for this project:",
       },
