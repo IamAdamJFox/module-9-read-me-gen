@@ -43,7 +43,7 @@ function generateMarkdown(data) {
   return `# ${data.title}
   ## Description
 
-${renderLicenseSection(data.license)}
+${renderLicenseBadge(data.license)}
 
 
 ${data.description}
