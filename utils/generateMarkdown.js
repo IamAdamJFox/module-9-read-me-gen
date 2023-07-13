@@ -3,7 +3,7 @@
 function renderLicenseBadge(license) {
   let badgeurl = '';
   if (license !== 'No liscense')
-  {badgeurl = "[![License](https://img.shields.io/badge/License-" + license + "-blue.svg)](${license})"
+  {badgeurl = "[![License](https://img.shields.io/badge/License-" + license + "-blue.svg)](" + license + ")"
   }
   return badgeurl;
 }
