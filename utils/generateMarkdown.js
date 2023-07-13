@@ -53,7 +53,7 @@ ${data.description}
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Contributing](#contributing)
+- [Contributers](#contributers)
 - [Tests](#tests)
 - [Questions](#questions)
 
@@ -67,7 +67,7 @@ ${data.usage}
 
 ${renderLicenseSection(data.license)}
 
-## Contributing
+## Contributers
 
 ${data.contributers}
 
