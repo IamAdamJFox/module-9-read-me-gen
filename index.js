@@ -13,22 +13,22 @@ const questions = [
       {
         type: "input",
         name: "description",
-        message: "Describe your project pls",
+        message: "Describe your project pls:",
       },
       {
         type: "input",
         name: "installation",
-        message: "Installation Instructions",
+        message: "Installation Instructions:",
       },
       {
         type: "input",
         name: "usage",
-        message: "What can we use this program for",
+        message: "What can we use this program for:",
       },
       {
         type: "list",
         name: "license",
-        message: "Please select a license for this project.",
+        message: "Please select a license for this project:",
         choices: [
           "MIT",
           "GPL",
@@ -39,12 +39,12 @@ const questions = [
       {
         type: "input",
         name: "tests",
-        message: "Enter any testing instructions you would like for this project.",
+        message: "Enter any testing instructions you would like for this project:",
       },
       {
         type: "input",
         name: "userName",
-        message: "Enter your github account name",
+        message: "Enter your github account name:",
       },
 ];
 
@@ -64,7 +64,7 @@ fs.writeFile(fileName, data, err => {
 // TODO: Create a function to initialize app
 function init() {inquirer.prompt(questions)
   .then((data) => {
-     writeToFile('./README.md', generateMarkdown(data))
+     writeToFile('./projectREADME.md', generateMarkdown(data))
   })
 }
 
